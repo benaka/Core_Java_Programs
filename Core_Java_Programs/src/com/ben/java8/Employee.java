@@ -14,6 +14,7 @@ public class Employee
 	private int id;
 	private String deptName;
 	private String address;
+	
 	private Long salary;
 	
 	public String getEname() {
