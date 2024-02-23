@@ -2,7 +2,7 @@ package com.ben.java8;
 
 public class Employee 
 {
-	public Employee(String ename, int id, String deptName, String address, String salary) {
+	public Employee(String ename, int id, String deptName, String address, Long salary) {
 		super();
 		this.ename = ename;
 		this.id = id;
@@ -14,7 +14,7 @@ public class Employee
 	private int id;
 	private String deptName;
 	private String address;
-	private String salary;
+	private Long salary;
 	
 	public String getEname() {
 		return ename;
@@ -40,10 +40,10 @@ public class Employee
 	public void setAddress(String address) {
 		this.address = address;
 	}
-	public String getSalary() {
+	public Long getSalary() {
 		return salary;
 	}
-	public void setSalary(String salary) {
+	public void setSalary(Long salary) {
 		this.salary = salary;
 	}
 	
