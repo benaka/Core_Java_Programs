@@ -63,6 +63,22 @@ public class StackImplUsingArray
 		}
 	}
 
+	public boolean isEmpty()
+	{
+		if(stack.length==0)
+		{
+			return true;
+		}
+		else
+		{
+			return false;
+		}
+	}
 	
+	public int top()
+	{
+		int data = stack[stack.length-1];
+		return data;
+	}
 
 }

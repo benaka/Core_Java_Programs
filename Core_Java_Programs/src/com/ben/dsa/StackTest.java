@@ -15,6 +15,10 @@ public class StackTest {
 		int obj=stack.pop();
 		System.out.println(obj);
 		//stack.printStack();
+		int data=stack.top();
+		System.out.println("Top of the stack is:"+data);
+		boolean isEmpty = stack.isEmpty();
+		System.out.println("is Stack is empty:"+isEmpty);
 
 	}
 
